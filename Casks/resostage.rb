@@ -1,8 +1,11 @@
 cask "resostage" do
-  version "0.1.0"
-  sha256 "072aca86cf90105c2dbfdee495cfcc335dd9db8f214d72449b8b3ab7f2adaf29"
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/resonaura/resostage/releases/download/v#{version}/ResoStage-#{version}.pkg",
+  version "0.1.0"
+  sha256 arm:   "6fbeb1e6e17a90c295666ee03bfcc349aab490b29bf99f35d1d35d3003890f65",
+         intel: "0f3c16f5b8d7d9c7b6188ca64e2d58d064e997b874c47f65c0afe436effb909c"
+
+  url "https://github.com/resonaura/resostage/releases/download/v#{version}/ResoStage-#{version}-mac-#{arch}.pkg",
       verified: "github.com/resonaura/resostage/"
   name "ResoStage"
   desc "Live performance audio workstation and stage playback engine"
@@ -16,7 +19,7 @@ cask "resostage" do
   auto_updates false
   depends_on macos: :ventura
 
-  pkg "ResoStage-#{version}.pkg"
+  pkg "ResoStage-#{version}-mac-#{arch}.pkg"
 
   uninstall pkgutil: "com.resonaura.resostage.app",
             delete:  "/Applications/ResoStage.app"
