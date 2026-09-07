@@ -14,7 +14,7 @@ cask "resostage" do
   end
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   pkg "ResoStage-#{version}.pkg"
 
