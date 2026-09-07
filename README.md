@@ -1,6 +1,6 @@
 # 🍺 Homebrew Tap for Resonaura
 
-<img src="https://raw.githubusercontent.com/resonaura/resostage/main/icons/icon.png" width="64" alt="ResoStage icon">
+<img src="https://raw.githubusercontent.com/resonaura/resostage/main/icons/app.png" width="64" alt="ResoStage icon">
 
 Official Homebrew tap for [Resonaura](https://github.com/resonaura) desktop applications.
 
