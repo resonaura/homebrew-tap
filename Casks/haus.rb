@@ -1,9 +1,9 @@
 cask "haus" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.4"
-  sha256 arm:   "93f718b761cbee0219c3e64a285b8db585dd4e615210021669515cebb1966772",
-         intel: "ae44b95d04883c32a7e7fe67e3e62bd2cb9fd544b3fc9fbcdbf501f752eb87e4"
+  version "0.1.5"
+  sha256 arm:   "4c74bcad2e09e67865e96eb5f593241c043bab4409f17a28c0c7bc3ccfbfebc7",
+         intel: "c0fc72da54920e79bf2a36ef8eda9359773468d8071bf85b3a0d019f9baa4a18"
 
   url "https://github.com/resonaura/haus/releases/download/v#{version}/Haus-#{version}-mac-#{arch}.pkg"
   name "Haus"

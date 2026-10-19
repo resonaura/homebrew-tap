@@ -22,7 +22,7 @@ brew install --cask resonaura/tap/resostage
 | Cask | Description | Version |
 |------|-------------|---------|
 | `resostage` | Live performance audio workstation and stage playback engine | 0.1.0 |
-| `haus` | Camera-first desktop home for Home Assistant | 0.1.4 |
+| `haus` | Camera-first desktop home for Home Assistant | 0.1.5 |
 
 ## Updating
 
